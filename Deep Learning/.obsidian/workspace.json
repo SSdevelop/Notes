@@ -18,8 +18,71 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7a8ad34253559b5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20230807154703.png"
+              }
+            }
+          },
+          {
+            "id": "1f25647ae9a7f4c8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20230807154456.png"
+              }
+            }
+          },
+          {
+            "id": "0231158587c309b6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20230807154312.png"
+              }
+            }
+          },
+          {
+            "id": "1cd1db7cc726bc77",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20230807154029.png"
+              }
+            }
+          },
+          {
+            "id": "d9296d26007e2377",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20230807153425.png"
+              }
+            }
+          },
+          {
+            "id": "979133cf5afa1040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transformers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -85,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RNN.md",
+                "file": "Transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RNN.md",
+                "file": "Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RNN.md"
+                "file": "Transformers.md"
               }
             }
           }
@@ -146,10 +209,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96304b9ea77a4ff4",
+  "active": "979133cf5afa1040",
   "lastOpenFiles": [
-    "Pasted image 20230807142025.png",
-    "Pasted image 20230807140742.png",
-    "RNN.md"
+    "RNN.md",
+    "Transformers.md",
+    "images/Pasted image 20230807150217.png",
+    "images/Pasted image 20230807153425.png",
+    "images/Pasted image 20230807154029.png",
+    "images/Pasted image 20230807154312.png",
+    "images/Pasted image 20230807154456.png",
+    "images/Pasted image 20230807154703.png",
+    "images",
+    "images/Pasted image 20230807142025.png",
+    "images/Pasted image 20230807140742.png"
   ]
 }

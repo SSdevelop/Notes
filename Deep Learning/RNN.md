@@ -31,6 +31,22 @@ _$W$’s_ are, each of them represents the weights of the network at a certain 
 2. Track long-term dependency.
 3. Maintain information about order.
 4. Share parameters across sequences.
+
+### Backpropagation through time
+
+![[Pasted image 20230807150217.png]]
+
+Take the cumulative loss, backpropagate through individual time steps and do the same process across the time steps, i.e., backpropagate from current time to when the process started in the past.
+
 ### Problems with RNN
 
-The simplest RNN model has a major drawback, called **vanishing gradient problem,** which prevents it from being accurate.  The problem comes from the fact that at each time step during training we are using the same weights to calculate $y_t$. That multiplication is also done during back-propagation. The further we move backwards, the bigger or smaller our error signal becomes. This means that **the network experiences difficulty in memorizing words from far away in the sequence** and makes predictions based on only the most recent ones.
+The simplest RNN model has a major drawback, called **vanishing gradient problem,** which prevents it from being accurate.  The problem comes from the fact that at each time step during training we are using the same weights to calculate $y_t$. That multiplication is also done during back-propagation. The further we move backwards, the bigger or smaller our error signal becomes. This means that **the network experiences difficulty in memorizing words from far away in the sequence** and makes predictions based on only the most recent ones. 
+One way to solve that is through ReLU activation function. It prevents shrinking as the derivative is 1 when $x>0$. 
+Another way is to Initialize weights to Identity and biases to 0 vector.
+We can use Gated Cells. Basically, use gates to selectively add or remove information within each recurrent unit. One example is through Long Short Term Memory (LSTMs) as it replies on a gated cell to track information throughout many time steps. It maintains a cell state. Use gates to control the flow of information by using _Forget_ gate which gets rid of irrelevant information, _storing_ relevant information from current input, selectively _updating_ the cell state and lastly, _output_ gate returns a filtered version of the cell state.
+
+### Limitations
+
+1. Encoding bottleneck. Encode a lot of content into a single output. Thus, there is no way to ensure that all the information was maintained and learned. 
+2. They are slow and no easy way to parallelize.
+3. No long memory.
