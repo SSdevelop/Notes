@@ -1,0 +1,5 @@
+The norms to guide us through the design of a neural network architecture suitable for CV:
+1. In the earliest layers, our network should respond similarly to the same patch, regardless of where it appears in the image. This principle is called _translation invariance_ (or _translation equivariance_).
+2. The earliest layers of the network should focus on local regions, without regard for the contents of the image in distant regions. This is the _locality_ principle. Eventually, these local representations can be aggregated to make predictions at the whole image level.
+3. As we proceed, deeper layers should be able to capture longer-range features of the image, in a way similar to higher level vision in nature.
+In summary, the network should be able to detect patterns regardless of their position in the image (translation invariance), start by analyzing local regions before considering the whole image (locality), combine local information to make predictions about the entire image (aggregation), and capture larger features as it goes deeper into the network (longer-range features).
