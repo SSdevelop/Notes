@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb743c0a6dacecfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ba7d017559349215",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38fd2fcd452f4798",
+  "active": "ba7d017559349215",
   "lastOpenFiles": [
     "CNN.md",
-    "MLP.md",
-    "RNN.md",
     "Transformers.md",
+    "RNN.md",
+    "MLP.md",
     "images/Pasted image 20230807150217.png",
     "images/Pasted image 20230807153425.png",
     "images/Pasted image 20230807154029.png",
